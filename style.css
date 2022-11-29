@@ -1869,6 +1869,9 @@ hr{
   
   /* Section6 ends */
   
+  .section7{
+    width: 100%;
+  }
   .section7__firstbox{
     mix-blend-mode: multiply;
     background-image: linear-gradient(
@@ -1881,7 +1884,6 @@ hr{
     display: flex;
     justify-content: space-around;
     opacity: 1;
-   
     height: auto;
     padding-bottom: 5rem;
   }
@@ -1993,3 +1995,4 @@ hr{
     font-size: smaller;
   }
 }
+
