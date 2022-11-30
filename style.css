@@ -49,14 +49,11 @@ button.btn-primary {
   background-repeat: repeat;
   height: 35px;
   font-size: smaller;
-  margin-top: 2rem;
 }
 button.btn-primary:hover{
   box-shadow: 1px 1px 3px 0 black;
 }
-h2,
-h6,
-h5 {
+h2,h6,h5 {
   color: aliceblue;
 }
 .head__1_home {
@@ -108,7 +105,7 @@ h5 {
   font-size: xx-large;
 }
 
-/*============================= Section Smart Contract ========================================== */
+/*============================= Section Home  ========================================== */
 
 .partners__mainContainer {
   margin:10%;
@@ -119,10 +116,7 @@ h5 {
   gap: 4rem;
     justify-content: center;
 }
-.clients_heading,
-.service__heading,
-.security_heading,
-.smart_contract__heading {
+.clients_heading,.service__heading,.security_heading,.smart_contract__heading {
   color: #0073ff;
   font-weight: bolder;
   margin-left: 0;
@@ -141,6 +135,10 @@ h5 {
 .service__para{
   width: 20rem;
   line-height: 1.5rem;
+  margin-bottom: 2rem;
+}
+ul{
+  margin-bottom: 2rem;
 }
 .features_and_advertisements {
   display: flex;
@@ -165,7 +163,7 @@ h5 {
   margin: 1rem 0;
 }
 
-/* partners__mainContainer ends */
+/*==================Section  partners__mainContainer ends ===============================*/
 
 .portfolio_container {
   background-image: linear-gradient(
@@ -197,6 +195,7 @@ h5 {
   display: inline-block;
   height: 10rem;
 }
+/* ============Stack OS Section====================== */
 
 .stackOS__section {
   display: flex;
@@ -210,8 +209,7 @@ h5 {
   display: flex;
   gap: 1rem;
 }
-
-/* Section 3 ends */
+/* ===============Position Items===================== */
 
 .smart_contract {
   display: flex;
@@ -300,8 +298,7 @@ h5 {
   top: 19.5rem;
   right: 0;
 }
-
-/* Section 4 ends    */
+/* =============Company Section======================== */
 
 .featured_companies_container,
 .faq_container {
@@ -361,7 +358,7 @@ h5 {
   color: #391400;
 }
 
-/* Section 5 ends */
+/* ==========================FAQ Section==================================== */
 
 .faq_container__faq {
   width: 26rem;
@@ -375,7 +372,6 @@ h5 {
 .answers_faq {
   width: 20rem;
 }
-
 .blog__faq_container {
   margin: 4rem 0;
   display: flex;
@@ -394,11 +390,12 @@ h5 {
   color: #391400;
   font-size: small;
 }
-.section__6image {
+.faq_container_image {
   width: 16rem;
+  margin-bottom: 1rem;
 }
 
-/* faq_container ends */
+/*========================== faq_container ends ==============================================*/
 
 .blogs_container__firstbox {
   mix-blend-mode: multiply;
@@ -464,9 +461,7 @@ h5 {
   height: 20rem;
 }
 
-
-
-/* blogs_container ends */
+/*====================== blogs_container end======================= */
 
 footer {
   background-color: #28293e;
@@ -519,6 +514,9 @@ hr {
   color: aliceblue;
 }
 
+
+/*==========================  @Media Querries Section ======================== */
+
 @media screen and (max-width: 1000px) {
   header {
     height: 3rem;
@@ -543,7 +541,6 @@ hr {
     height: auto;
     padding-bottom: 4rem;
   }
-
   .portfolio {
     padding: 1rem;
   }
@@ -584,6 +581,7 @@ hr {
   padding: 2rem 2rem;
 }
 }
+
 @media screen and (max-width: 850px) {
   nav {
     gap: 1rem;
@@ -595,7 +593,6 @@ hr {
   .Blue_font {
     font-size: 1rem;
   }
-
   .partners__mainContainer {
     margin: 7%;
   }
@@ -606,7 +603,6 @@ hr {
   .smart_contract {
     margin: 1rem 2rem;
   }
-
   .stack_OS_report {
     margin: 1rem;
   }
@@ -626,7 +622,6 @@ hr {
     font-size: smaller;
     width: 20rem;
   }
-
   .Investors_Trust {
     padding: 1rem 2rem;
     width: 20rem;
@@ -700,22 +695,18 @@ hr {
       #3636ff
     );
     font-size: small;
-   
   }
   .audit__data__h5 {
     width: 10rem;
     font-size: small;
   }
-
   .Blue_font {
     font-size: 1rem;
   }
-
   .portfolio_container {
     height: auto;
     padding-bottom: 4rem;
   }
-
   .smart_contract {
     margin: 1rem 2rem;
   }
@@ -741,7 +732,6 @@ hr {
     top: 9rem;
     right: 8rem;
   }
-
   .Investors_Trust {
     width: 20rem;
     font-size: smaller;
@@ -754,7 +744,6 @@ hr {
     top: 19.9rem;
     right: 0;
   }
-
   .clients__saying {
     margin: 2rem;
   }
@@ -763,7 +752,6 @@ hr {
     justify-content: center;
     gap: 1rem;
   }
-
   .faq_container__faq {
     width: 30rem;
   }
@@ -771,13 +759,11 @@ hr {
     width: 80%;
     margin-left: 10%;
   }
-  .section__faq_and_answers,
-  .video_blogs {
+  .section__faq_and_answers,.video_blogs {
     display: flex;
     justify-content: space-between;
   }
-  .answers_faq,
-  .accordion {
+  .answers_faq,.accordion {
     width: 20rem;
   }
   .faq_container__thirdbox_imge {
@@ -789,7 +775,6 @@ hr {
   .blogs_container {
     width: 100%;
   }
-
   .contact_email {
     font-size: smaller;
   }
@@ -812,7 +797,6 @@ hr {
     flex-direction: column;
     gap: 2rem;
   }
-
   .image__and__service {
     flex-direction: column;
   }
@@ -828,7 +812,6 @@ hr {
   .smart_contract__position__box {
     width: 100%;
   }
-
   .Smart_Contract {
     width: 15rem;
     font-size: smaller;
@@ -845,7 +828,6 @@ hr {
     top: 9rem;
     right: 8rem;
   }
-
   .Investors_Trust {
     width: 15rem;
     font-size: smaller;
@@ -869,13 +851,11 @@ hr {
     flex-direction: column;
     gap: 4rem;
   }
-
   .mainbox__featured_companies_container {
     flex-direction: column;
     align-items: center;
     gap: 4rem;
   }
-
   .section__faq_and_answers {
     display: flex;
     flex-direction: column;
@@ -886,13 +866,10 @@ hr {
     justify-content: center;
     align-items: center;
   }
-
-  .faq_container__thirdbox_imge,
-  .section__6image {
+  .faq_container__thirdbox_imge,.section__6image {
     width: 20rem;
   }
-  .blogs_container__lastBox__imagebox,
-  .blogs_container__lastBox__image {
+  .blogs_container__lastBox__imagebox,.blogs_container__lastBox__image {
     width: 10rem;
     height: 10rem;
   }
