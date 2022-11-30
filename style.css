@@ -38,7 +38,13 @@ nav {
   text-decoration: none;
   color: white;
 }
-
+.lott{
+  width: 20rem; height: 20rem;
+}
+.feature_animation{
+  width: 400px; 
+  height: 300px; margin-right: 2rem;
+}
 .btn {
   box-shadow: 5px 8px 10px #00000029;
   color: white;
@@ -153,16 +159,21 @@ ul{
 .security__mainHeading {
   color: #391400;
   text-align: center;
-  margin-bottom: -2rem;
+  margin-bottom: 2rem;
 }
 .service {
   width: 28rem;
 }
 .security_img {
-  width: 100vw;
-  margin: 1rem 0;
+ width: 100%;
+  margin: 5% auto ;
+ margin-top:-3rem ;
 }
 
+.accordion-body{
+  border: 1px solid blue;
+  border-top: 0;
+}
 /*==================Section  partners__mainContainer ends ===============================*/
 
 .portfolio_container {
