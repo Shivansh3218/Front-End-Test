@@ -56,6 +56,9 @@ button.btn-primary {
   height: 35px;
   font-size: smaller;
 }
+.btn-light{
+  margin-top: 2rem;
+}
 button.btn-primary:hover{
   box-shadow: 1px 1px 3px 0 black;
 }
